@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5932412854:AAG5OvDWZ47MsWOHCZQ7DQNXYCguyK3Xu54")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5955210544:AAFStdc8CfefZeI8m_7DO1sYV9DR3JN9PPc")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "10962030"))
@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "10962030"))
 API_HASH = os.environ.get("API_HASH", "b1a3f984744fd762f58b009a02d951e5")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001659246915"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001701570389"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "botuna")
@@ -36,10 +36,10 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://arrkpvua:FxUA25_K88uQtYcpiGxPNeFqS7yg6fR0@peanut.db.elephantsql.com/arrkpvua")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001864889900"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001541857825"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
