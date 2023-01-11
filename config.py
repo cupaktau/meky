@@ -25,8 +25,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001880703997"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "botuna")
 
-# ADMIN
-5832986790
+# ADMIN 5832986790
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
